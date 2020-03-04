@@ -220,50 +220,34 @@ a.footer-links:hover, a.icons:hover{
 
 .podcastsection p  {
   position: absolute;
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 200;
-  bottom: 120px;
+  bottom: 100px;
   left: 10px;
   margin-bottom: 5px;
 }
 
 #podcast  {
   position: absolute;
-  font-size: 3.8rem;
+  font-size: 3.5rem;
   font-weight: 700;
-  bottom: 50px;
+  bottom: 30px;
   left: 10px;
   margin-bottom: 5px;
 }
 
-/* .podcastsection a.btn.btn-primary {
-  padding: 0.5rem 2.8rem;
-  bottom: 50px;
-  left: 5px;
-  text-align: center;
-  background-color: #06588c;
-  border-color: #06588c;
-} */
-
-#podcast-icons {
-  padding-top: 20px;
-}
-
 #podcast-icons a {
-  padding-top: 15px;
-  margin-left: 1.5%;
+  margin-top: 50px;
+  margin-right: 20px;
   color: #fff;
   text-decoration: none;
-
-}
-
-.podcast-media {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 #podcast-icons a:hover {
-  opacity: 0.4
+  /* opacity: 0.4 */
+  color: rgb(50, 94, 141);
 }
 
 /*--Desktop Code--*/
