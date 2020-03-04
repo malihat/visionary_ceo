@@ -208,6 +208,63 @@ a.footer-links:hover, a.icons:hover{
   padding-bottom: 80px;
 }
 
+.podcastsection {
+  padding-top: 150px;
+  padding-bottom: 150px;   
+  background-image:  linear-gradient(to left, rgba(94, 136, 181, 0.3) 25%, rgba(23, 25, 27, 0.95) 90%), url(../images/podcast1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#fff;
+}
+
+.podcastsection p  {
+  position: absolute;
+  font-size: 3.2rem;
+  font-weight: 200;
+  bottom: 120px;
+  left: 10px;
+  margin-bottom: 5px;
+}
+
+#podcast  {
+  position: absolute;
+  font-size: 3.8rem;
+  font-weight: 700;
+  bottom: 50px;
+  left: 10px;
+  margin-bottom: 5px;
+}
+
+/* .podcastsection a.btn.btn-primary {
+  padding: 0.5rem 2.8rem;
+  bottom: 50px;
+  left: 5px;
+  text-align: center;
+  background-color: #06588c;
+  border-color: #06588c;
+} */
+
+#podcast-icons {
+  padding-top: 20px;
+}
+
+#podcast-icons a {
+  padding-top: 15px;
+  margin-left: 1.5%;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.podcast-media {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+#podcast-icons a:hover {
+  opacity: 0.4
+}
 
 /*--Desktop Code--*/
 @media (min-width: 1200px) {
@@ -320,7 +377,7 @@ a.footer-links:hover, a.icons:hover{
     color: #fff;
   }
 
-  .footer {
+  #footer {
     background-color: #000000;
     color: #fff;
     padding-top: 80px;
@@ -481,7 +538,7 @@ a.footer-links:hover, a.icons:hover{
     color: #fff;
   }
 
-  .footer {
+  #footer {
     background-color: #000000;
     color: #fff;
     padding-top: 80px;
@@ -664,7 +721,7 @@ a.footer-links:hover, a.icons:hover{
     height: 250px;
   }
 
-  .footer {
+  #footer {
     background-color: #000000;
     color: #fff;
     padding-top: 80px;
@@ -851,7 +908,7 @@ a.footer-links:hover, a.icons:hover{
     height: 250px;
   }
 
-  .footer {
+  #footer {
     background-color: #000000;
     color: #fff;
     padding-top: 80px;
@@ -1040,7 +1097,7 @@ a.footer-links:hover, a.icons:hover{
     height: 250px;
   }
 
-  .footer {
+  #footer {
     background-color: #000000;
     color: #fff;
     padding-top: 80px;
