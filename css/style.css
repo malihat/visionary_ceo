@@ -108,6 +108,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   border-color: #fff !important;
 }
 
+#next-button {
+  margin-bottom: 50px;
+}
+
 hr.small {
   width: 80px;
   margin-left: 0px;
@@ -233,7 +237,7 @@ a.footer-links:hover, a.icons:hover{
   font-weight: 700;
   bottom: 30px;
   left: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 #podcast-icons a {
@@ -589,7 +593,7 @@ a.footer-links:hover, a.icons:hover{
     text-align: right;
   }
   a.navbar-brand {
-    width: 400px;
+    width: 350px;
   }
 
   .carousel-item {
@@ -776,7 +780,7 @@ a.footer-links:hover, a.icons:hover{
     text-align: center;
   }
   a.navbar-brand {
-    width: 400px;
+    width: 350px;
   }
 
   .carousel-item {
@@ -969,7 +973,7 @@ a.footer-links:hover, a.icons:hover{
   }
 
   a.navbar-brand {
-    width: 400px;
+    width: 350px;
   }
 
   .carousel-item {
