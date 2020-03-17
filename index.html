@@ -12,19 +12,21 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!--FontAwesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
   <!--GoogleFonts-->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap" rel="stylesheet">
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicondesign/favicon.png">
 </head>
 <body>   
+
   <!-- Navigation -->
   <!-- Top Navbar -->
   <div class="socialmedianavbar">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p class="topnavbar">123 Main Street, New York, NY 11801</p>
+          <p class="topnavbar"><i class="fa fa-map-marker"></i> 123 Main Street, New York, NY 11801</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="topicons">
@@ -60,46 +62,64 @@
   <!-- /Bottom NavBar -->
   <!-- /Navigation -->
   <!---SlideShow-->
-  <header>
-    <div class="container-fluid nopadding">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image:url(images/slider-1.jpg)">
-            <div class="carousel-caption d-md-block" >
-              <h3>Wanna Chat!</h3>
-              <p>Making the right decisions at the right times is crucial in an ever changing real estate environment.</p>
-              <a class="btn btn-primary" href="contact.html">Click For More </a>
+
+
+  <div class="container-fluid">
+    <header>  
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image:url(images/slider-1.jpg);
+            height:60vh;
+            background-size:cover;">
+            <!-- <img class="d-block w-100" src="images/slider-1.jpg" class="img-fluid" alt="First slide"> -->
+            <div class="carousel-caption d-md-block">
+              <h3 class="slider-heading">Welcome to my site</h3 class="slider-heading">
+              <p class="slider-text" >With an undying passion for Real Estate and business Lance aims to share his experiences, lessons and wisdom gained along his journey.</p>
+              <a href="#" class="btn btn-primary"> Click Here </a>
             </div>
           </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image:url(images/slider-3.jpg)">
+
+          <div class="carousel-item" style="background-image:url(images/slider-2.jpg);
+            height:60vh;
+            background-size:cover;">
+            <!-- <img class="d-block w-100" src="images/slider-2.jpg" class="img-fluid" alt="Second slide"> -->
             <div class="carousel-caption d-md-block">
-              <h3>Subscribe Today!</h3>
-              <p>Through his years of coaching and leading Lance has discovered that maneuvering.
-              </p>
-              <a class="btn btn-primary" href="#footer">Click For More </a>
+              <h3 class="slider-heading">Subscribe Today!</h3>
+              <p class="slider-text">Through his years of coaching and leading Lance has discovered that maneuvering through the real estate industry in search of securing your own future can be a difficult task.</p>
+              <a href="#newsletter" class="btn btn-primary"> Click Here </a>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image:url(images/slider-3.jpg);
+            height:60vh;
+            background-size:cover;">
+            <!-- <img class="d-block w-100" src="images/slider-3.jpg" class="img-fluid" alt="Third slide"> -->
+            <div class="carousel-caption d-md-block">
+              <h3 class="slider-heading">Wanna Chat!</h3>
+              <p class="slider-text">Making the right decisions at the right times is crucial in an ever changing real estate environment.</p>
+              <a href="contact.html" class="btn btn-primary"> Click Here </a>
             </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span
-        class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a
-        class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span
-        class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
-    </div>
-  </header>
-  <!---/SlideShow-->
+    </header>
+  </div>
+  <!-- /SlideShow -->
+
   <!-- About Section -->
   <div class="aboutsection">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-md-12 col-sm-12">
-          <img src="images/New Project-2.jpg" class="img-fluid">
+          <img src="images/aboutA.jpg" class="img-fluid">
         </div>
         <div class="col-lg-7 col-md-12 col-sm-12">
           <div id="about-text">
@@ -124,18 +144,76 @@
     <div class="podcastsection">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 ">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6 text-center">
             <p> Listen to </p>
-            <p id="podcast">PODCAST</p>
+            <p id="podcast">Podcast</p>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
             <div id="podcast-icons">
-              <a  href="https://podcasts.apple.com/us/podcast/the-real-estate-informant-podcast/id1493421136?ign-mpt=uo%3D4"><i class="fa fa-apple"> </i> iTunes </a>
-              <a  href="https://open.spotify.com/show/0Ray4Ns0ddxQCYZHD0tu6H"><i class="fa fa-spotify"> </i> Spotify </a>
+              <a href="https://podcasts.apple.com/us/podcast/the-real-estate-informant-podcast/id1493421136?ign-mpt=uo%3D4"><i class="fa fa-apple"> </i> iTunes </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div id="podcast-icons">
+              <a href="https://open.spotify.com/show/0Ray4Ns0ddxQCYZHD0tu6H"><i class="fa fa-spotify"> </i> Spotify </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div id="podcast-icons">
+              <a href="#" ><i class="fa fa-android"></i> Android</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div id="podcast-icons">
+              <a href="#"><i class="fa fa-youtube-play" ></i> Youtube </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- /podcast section -->
+    <!-- /podcast section --> 
+
+    <!-- How can I help section  -->
+    <div id="helpsection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <img class="help-img" src="images/money-box.png">
+            <h4 class="help-title"> Financial Planning </h4>
+            <p class="help-text">Adipiscing elit, sed do eiusmod tempor inciunt ut labore et dolore 
+              magna liqua.abore et dolore incididunt ut labore et dolore magna liqua. abore et dolore</p>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <img class="help-img" src="images/investment.png">
+            <h4 class="help-title">Investment Management</h4>
+            <p class="help-text">Adipiscing elit, sed do eiusmod tempor inciunt ut labore et dolore 
+              magna liqua.abore et dolore incididunt ut labore et dolore magna liqua. abore et dolore</p>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <img class="help-img" src="images/real-estate.png">
+            <h4 class="help-title"> Estate Planning</h4>
+            <p class="help-text">Adipiscing elit, sed do eiusmod tempor inciunt ut labore et dolore 
+              magna liqua.abore et dolore incididunt ut labore et dolore magna liqua. abore et dolore</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /What I Do section  -->
+
+      <!-- Experience section -->
+      <div class="experience">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+              <h1 class="white" id="experience"> More than 10 years </h1>
+              <h1 class="white" id="experience"> of Experience </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Experience section -->
 
   <!-- Blog Section -->
   <div class="blogsection">
@@ -153,7 +231,7 @@
           <hr class="small">
           <p class="blog-text"> How foreclosure affects entire communities. When a family is foreclosed upon the damage
             is not only felt by those affected...</p>
-          <a href="blog1.html" type="button" id="blog-button" class="btn btn-secondary"> Read More </a>
+          <a href="blog1.html" type="button" id="blog-button" class="btn btn-primary"> Read More </a>
           <br><br>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
@@ -163,7 +241,7 @@
           <hr class="small">
           <p class="blog-text"> When shopping around for a home, most prospective home buyers prefer to purchase a house
             with the latest renovations. By doing...</p>
-          <a href="blog2.html" type="button" id="blog-button" class="btn btn-secondary"> Read More </a>
+          <a href="blog2.html" type="button" id="blog-button" class="btn btn-primary"> Read More </a>
           <br><br>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
@@ -173,7 +251,7 @@
           <hr class="small">
           <p class="blog-text"> Homeownership serves as the very fabric of our society and economy. Without it schools
             struggle to obtain funding, property values... </p>
-          <a href="blog3.html" type="button" id="blog-button" class="btn btn-secondary"> Read More </a>
+          <a href="blog3.html" type="button" id="blog-button" class="btn btn-primary"> Read More </a>
           <br><br>
         </div>
       </div>
@@ -229,7 +307,8 @@
             <h4> Quick Links </h4>
             <a href="index.html" class="footer-links">Home </a><br>
             <a href="about.html" class="footer-links">About </a><br>
-            <a href="contact.html" class="footer-links">Contact </a>
+            <a href="contact.html" class="footer-links">Contact </a><br>
+            <a href="contact.html" class="footer-links">Newsletter </a>
             <br><br>
             <h4 id="media"> Media </h4>
             <a href="https://www.instagram.com/realestateinformant/" class="icons" target="_blank">
