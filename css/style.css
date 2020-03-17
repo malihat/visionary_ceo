@@ -647,7 +647,6 @@ div.container-fluid {
     font-size: 1.2rem;
   }
 
-
   #footer-logo img {
     width: 300px;
   }
@@ -996,7 +995,7 @@ div.container-fluid {
     position: absolute;
     left: 12% !important;
     right: 35% !important;
-    bottom: 40% !important;
+    bottom: 25% !important;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
